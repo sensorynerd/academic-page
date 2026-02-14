@@ -14,6 +14,19 @@ body {
     min-height: 100vh;
 }
 
+h2 {
+    color: #1F1F1F;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
 /* Navigation Bar */
 .navbar {
     background-color: #EEEAE5;

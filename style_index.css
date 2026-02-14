@@ -1,5 +1,13 @@
 /* Index page styles */
 
+/* Hero Section */
+.hero {
+    background-color: transparent;
+    /*border-radius: 8px;*/
+    padding: 3rem;
+    /*box-shadow: 0 2px 8px rgba(0,0,0,0.1);*/
+}
+
 .profile-image {
     width: 180px;
     height: 180px;
@@ -13,19 +21,6 @@
 .profile-content {
     flex: 1;
     min-width: 300px;
-}
-
-.profile-content h2 {
-    color: #1F1F1F;
-    margin-bottom: 1rem;
-    font-size: 2rem;
-}
-
-.intro-text {
-    font-size: 1.1rem;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-    color: #555;
 }
 
 /* Profile Links */

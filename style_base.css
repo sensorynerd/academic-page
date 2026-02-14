@@ -9,6 +9,9 @@ body {
     line-height: 1.3;
     color: #1F1F1F;
     background-color: #FAF9F7;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Navigation Bar */
@@ -26,7 +29,7 @@ body {
     margin: 0 auto;
     padding: 0 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -41,6 +44,7 @@ body {
     display: flex;
     list-style: none;
     gap: 2rem;
+    margin-left: auto;
 }
 
 .nav-links a {
@@ -62,6 +66,7 @@ body {
     max-width: 1000px;
     margin: 2rem auto;
     padding: 0 2rem;
+    flex: 1;
 }
 
 /* Hero Section */

@@ -30,7 +30,7 @@
 .item-card {
     background-color: white;
     padding: 1.5rem;
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
     margin-bottom: 1.5rem;
     border-radius: 8px;
     border: 2px solid transparent;
@@ -46,16 +46,16 @@
   height: auto;
   display: block;
   object-fit: contain;
-  margin-bottom: 1.5em;
 }
 
 .item-card p {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     font-size: 0.9rem;
 }
 
 .item-card .meta {
     color: #777;
-    font-size: 0.9rem;
-    font-style: italic;
+    margin-bottom: 0.5rem;
+    /*font-size: 0.9rem;
+    font-style: italic;*/
 }

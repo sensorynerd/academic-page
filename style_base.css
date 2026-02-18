@@ -14,17 +14,24 @@ body {
     min-height: 100vh;
 }
 
-h2 {
+h1 {
     color: #1F1F1F;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
 
+h2 {
+    color: #1F1F1F;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
 h3 {
     color: #1F1F1F;
-    /*margin-top: 2rem;*/
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 p {
@@ -61,7 +68,9 @@ nav {
 .nav-title {
     font-size: 1.5rem;
     font-weight: 600;
-    min-width: 180px
+    min-width: 180px;
+    text-decoration: none;
+    color: #1F1F1F;
 }
 
 .nav-links {

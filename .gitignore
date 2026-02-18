@@ -1,10 +1,2 @@
-# Ignore images
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.gif
-*.webp
-
 # Mac system files
 .DS_Store

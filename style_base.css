@@ -85,6 +85,12 @@ nav {
     background-color: #E2DDD6;
 }
 
+/* Icon */
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
 /* Main Container */
 .container {
     max-width: 900px;
@@ -104,6 +110,13 @@ footer {
 
 footer p {
     font-size: 0.8rem;
+}
+
+.section-divider {
+    border: none;
+    height: 1.5px;
+    background-color: #EEEAE5;
+    margin: 1.5rem 0;
 }
 
 /* Responsive Design */

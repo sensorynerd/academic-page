@@ -1,0 +1,47 @@
+/* Index page styles */
+
+/* Hero Section */
+.hero {
+    background-color: transparent;
+    /*border-radius: 8px;*/
+    padding: 3rem;
+    /*box-shadow: 0 2px 8px rgba(0,0,0,0.1);*/
+}
+
+.profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px;
+    flex-shrink: 0;
+    margin-bottom: 1.5rem;
+}
+
+.profile-content {
+    flex: 1;
+    min-width: 300px;
+}
+
+.name-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.icons {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    text-decoration: none;
+}
